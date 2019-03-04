@@ -1,0 +1,1 @@
+# Configure BotMan using annotations
