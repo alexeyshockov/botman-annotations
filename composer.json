@@ -1,0 +1,23 @@
+{
+    "name": "alexeyshockov/botman-annotations",
+    "description": "Configure BotMan using annotations",
+    "keywords": ["botman", "annotations"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Shokov",
+            "email": "alexey@shockov.com"
+        }
+    ],
+    "require": {
+        "doctrine/annotations": "~1.2",
+        "botman/botman": "^2.0"
+    },
+    "autoload": {
+        "psr-4": { "AlexS\\BotMan\\Annotations\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "AlexS\\BotMan\\Annotations\\Tests\\": "tests/" }
+    }
+}
